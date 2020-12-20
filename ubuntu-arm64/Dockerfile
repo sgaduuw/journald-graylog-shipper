@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 ubuntu:bionic
+FROM --platform=linux/arm64 ubuntu:20.04
 
 LABEL maintainer="Eelco Wesemann <sgaduuw@users.noreply.github.com>"
 USER root
