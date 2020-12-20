@@ -1,11 +1,11 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 LABEL maintainer="Steve Horsfield <stevehorsfield@users.noreply.github.com>"
 USER root
 
 WORKDIR /
 
-ENV TINI_VERSION=v0.18.0
+ENV TINI_VERSION=v0.19.0
 
 RUN apt-get update \
     && apt-get install \
